@@ -1,0 +1,28 @@
+Install django framework
+pip install django
+
+Create django project
+django-admin startproject project_name  
+
+
+Create django app
+python manage.py startapp app_name
+
+Create superuser
+python manage.py createsuperuser
+
+Run migrations
+python manage.py makemigrations
+python manage.py migrate
+
+Run server
+python manage.py runserver
+
+Run server with custom port
+python manage.py runserver 8000
+
+Create Virtual Environment
+python3 -m venv .env
+
+Activate Virtual Environment    
+source .env/bin/activate
