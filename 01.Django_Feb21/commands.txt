@@ -26,3 +26,7 @@ python3 -m venv .env
 
 Activate Virtual Environment    
 source .env/bin/activate
+
+
+Django shell
+python manage.py shell
